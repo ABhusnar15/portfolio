@@ -1,0 +1,27 @@
+# Portfolio (Static)
+
+## Run locally
+This is plain HTML/CSS/JS. Use any static server.
+
+From the `portfolio/` folder:
+
+```bash
+python -m http.server 5500
+```
+
+Open:
+http://localhost:5500
+
+## Replace images
+- Profile image: `assets/profile.jpg`
+- Project images:
+  - `assets/projects/voice-assistant.jpg`
+  - `assets/projects/marketplace.jpg`
+  - `assets/projects/education-dms.jpg`
+
+## Replace placeholders
+Update in `index.html`:
+- Brand name / “Your Name”
+- Resume link: `assets/resume.pdf`
+- GitHub + LinkedIn URLs
+- Email: `mailto:yourname@example.com`
